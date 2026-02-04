@@ -1,0 +1,22 @@
+=== Linux 학습 일지 웹사이트 ===
+작성일: 2026. 02. 04. (수) 12:37:16 KST
+
+=== 작성한 파일 ===
+total 20
+drwxrwxr-x 2 user user 4096  2월  4 12:37 .
+drwxrwxr-x 3 user user 4096  2월  4 12:33 ..
+-rw-rw-r-- 1 user user 3750  2월  4 12:35 day1.html
+-rw-rw-r-- 1 user user 2271  2월  4 12:36 index.html
+-rw-rw-r-- 1 user user  111  2월  4 12:37 result.txt
+
+=== Nginx 상태 ===
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2026-02-04 12:36:15 KST; 1min 1s ago
+       Docs: man:nginx(8)
+    Process: 7329 ExecStartPre=/usr/sbin/nginx -t -q -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+    Process: 7330 ExecStart=/usr/sbin/nginx -g daemon on; master_process on; (code=exited, status=0/SUCCESS)
+   Main PID: 7331 (nginx)
+      Tasks: 3 (limit: 4542)
+     Memory: 3.6M
+        CPU: 38ms
